@@ -1,0 +1,89 @@
+
+.head-box {
+	width: 1100px;
+	margin-top: 64px;
+	display: flex;
+	margin-left: 132px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.list {
+	font-size: 20px;
+	Color: #3D37F1;
+	font-family:"Lato", Bold
+}
+
+.right-box {
+	width: 596px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-box-text {
+	font-size: 32px;
+	color: #4B647E;
+	font-family: "Lato", Bold;
+}
+
+.left-box-text::before {
+	content: "Web";
+	Color: #3D37F1;
+}
+
+.middle-box {
+	width: 1200px;
+	margin-top: 184px;
+	margin-left: 132px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text {
+	font-size: 58px;
+	Color: #534D4D;
+}
+
+.text-down {
+	font-size: 22px;
+	Color: #534D4D;
+	margin-top: 39px;
+}
+
+.button {
+	width: 263px;
+	height: 76px;
+	background-color: #3D37F1;
+	margin-top: 80px;
+	border-radius: 38px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img {
+	width: 420px;
+	height: 280px;
+}
+
+.button-text {
+	font-size: 23px;
+	font-family: "Poppins";
+	color: #FFFFFF;
+	transition: all 2s ease-out;
+}
+
+.button-text::before {
+	content: "👋";
+}
+
+.button:hover {
+    background-color: gray;
+
+}
+
+
+
+
